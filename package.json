@@ -1,6 +1,6 @@
 {
   "name": "throttle-action",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create a throttled Redux action",
   "main": "lib/index.js",
   "scripts": {
