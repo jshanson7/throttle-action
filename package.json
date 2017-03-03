@@ -30,9 +30,10 @@
     "url": "git+https://github.com/jshanson7/throttle-action.git"
   },
   "keywords": [
-    "action",
     "throttle",
+    "action",
     "redux",
+    "thunk",
     "lodash"
   ]
 }
