@@ -13,6 +13,7 @@ export default function throttleAction(action, wait, options) {
 
   // provide hook to _.throttle().cancel() to cancel any trailing invocations
   thunk.cancel = throttled.cancel;
+  thunk.flush = throttled.flush;
 
   return thunk;
 }
